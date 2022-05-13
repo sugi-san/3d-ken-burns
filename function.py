@@ -29,7 +29,8 @@ def display_pic(folder):
         image_plt = np.array(images)
         ax.imshow(image_plt)
         name = os.path.basename(file)
-        ax.set_xlabel(name, fontsize=30)               
+        ax.set_xlabel(name, fontsize=30)
+        fig.tight_layout()
     plt.show()
     plt.close()
 
