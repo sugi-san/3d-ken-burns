@@ -1,6 +1,5 @@
 # --- display_mp4 ---
 from IPython.display import display, HTML
-from IPython.display import HTML
 
 def display_mp4(path):
     from base64 import b64encode
